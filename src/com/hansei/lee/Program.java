@@ -17,7 +17,7 @@ import com.google.gson.Gson;
 public class Program {
 	@SuppressWarnings({ "unchecked", "resource" })
 	public static void main(String[] args) throws IOException, FileNotFoundException {
-		//myDic의 저장경로
+		//myDic의 저장경로(주의! : 다른 장치에서 사용시 path수정 필수!!)
 		String path = "C:\\Users\\so021\\Desktop\\자바프로그래밍\\MidterExam_202110105_이일호_2\\myDic.json";
 		//Gson 객채 생성
 		Gson gson = new Gson();
